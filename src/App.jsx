@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Store from "./components/Store";
+import DetailedItem from "./components/DetailedItem";
 import Footer from "./components/Footer";
 
 function App() {
@@ -8,8 +9,9 @@ function App() {
     <main className="xl:max-w-[1280px] p-6 m-auto">
       <Navbar />
       <hr className="border-black" />
-      {/* <Home /> */}
-      <Store />
+      {/* <Home />
+          <Store /> */}
+      <DetailedItem />
       <hr className="border-black" />
       <Footer />
     </main>
